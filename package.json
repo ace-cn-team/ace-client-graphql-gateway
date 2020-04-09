@@ -1,0 +1,19 @@
+{
+  "name": "ace-graphql-gateway",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "graphql": "14.6.0",
+    "apollo-server-express": "2.11.0",
+    "@apollo/gateway": "0.13.2"
+  }
+}

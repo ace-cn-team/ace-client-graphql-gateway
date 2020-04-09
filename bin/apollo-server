@@ -1,0 +1,5 @@
+const app = require('../app');
+const appConfig = require('../appConfig');
+app.listen({port: appConfig.serverPort}, () =>
+    console.log(`🚀 Server ready at http://localhost:${appConfig.serverPort}${appConfig.graphqlPath}`)
+);
